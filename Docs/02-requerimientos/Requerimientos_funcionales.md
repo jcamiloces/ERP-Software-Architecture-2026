@@ -1,4 +1,4 @@
-# Requisitos Funcionales Principales - ERP LA 74
+# Requerimientos Funcionales Principales - ERP LA 74
 
 
 | Código | Requisito |
@@ -18,4 +18,4 @@
 | RF13 | El sistema deberá mostrar reportes de empleados y costos de nómina. |
 | RF14 | El sistema deberá permitir gestionar usuarios y permisos. |
 
-![Requisitos funcionales](../images/requisitos_funcionales.png)
+![Requerimientos funcionales](../images/Requerimientos_funcionales.jpeg)

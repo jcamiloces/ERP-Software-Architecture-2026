@@ -1,4 +1,4 @@
-# Requisitos No Funcionales - ERP LA 74
+# Requerimientos No Funcionales - ERP LA 74
 
 | Requisito no funcional | Descripción | Justificación |
 |---|---|---|
@@ -11,4 +11,4 @@
 | 7. Mantenibilidad | Código organizado y documentado para facilitar actualizaciones y correcciones futuras. | Reduce costos de mantenimiento y permite mejoras continuas. |
 | 8. Diseño de interfaz | Diseño moderno y consistente con la identidad visual del negocio (verde esmeralda, dorado, blanco y negro). | Refuerza la identidad de la marca y mejora la experiencia del usuario. |
 
-![Requisitos no funcionales](../images/requisitos_no_funcionales.png)
+![Requerimientos no funcionales](../images/Requerimientos_no_funcionales.jpeg)
