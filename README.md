@@ -123,7 +123,10 @@ La documentación del proyecto está organizada de la siguiente manera:
 Docs/
 │
 ├── 01-definicion-proyecto/
-│   └── Definicion_proyecto.md
+│   ├── Definicion_proyecto.md
+│   ├── Antecedentes.md
+│   ├── Alcances.md
+│   └── Tecnologias.md
 │
 └── 02-requerimientos/
     ├── Arbol_Funcional.md
@@ -147,6 +150,9 @@ La documentación actual incluye:
 - Justificación del proyecto.
 - Usuarios finales.
 - Utilidad esperada y retorno de inversión.
+- Antecedentes (comparativo con aplicaciones similares).
+- Alcances del sistema (triple restricción).
+- Tecnologías seleccionadas.
 - Descomposición funcional.
 - Requisitos funcionales.
 - Requisitos no funcionales.
