@@ -157,4 +157,12 @@ La documentación actual incluye:
 
 **Proyecto:** ERP para Víveres y Licores La 74
 **Asignatura:** Arquitectura de Software
+**Curso:** A1
 **Repositorio:** ERP-Software-Architecture-2026
+
+### Integrantes
+
+- Brayhan Alexander Suárez Merchán
+- Juan Camilo Céspedes Correal
+- Juan Camilo Zabala Cerón
+- David Felipe Moreno García
