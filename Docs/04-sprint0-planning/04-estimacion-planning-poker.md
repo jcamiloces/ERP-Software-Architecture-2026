@@ -30,3 +30,18 @@ cada historia, en lugar de basarse en el criterio de una sola persona.
 El total estimado para el Sprint 1 fue de **29 Story Points**, cifra que fue
 considerada adecuada por el equipo dada su capacidad de trabajo durante las dos
 semanas de duración del sprint.
+
+## Evidencia de la sesión de Planning Poker
+
+Capturas de las rondas de votación en *Planning Poker Online*, donde se observa el
+voto individual de cada integrante (Brayan, Zabala, Felipe y Camilo Cespedes) y el
+consenso alcanzado para cada historia:
+
+![Ronda de votación - consenso 5](../images/planning-poker-consenso-5.jpg)
+
+![Rondas de votación - consenso 5 y consenso 3](../images/planning-poker-consenso-5-3.png)
+
+![Rondas de votación - consenso 2 y consenso 3](../images/planning-poker-consenso-2-3.png)
+
+> En todas las rondas mostradas el equipo alcanzó consenso total en la primera
+> votación, sin necesidad de una segunda ronda de discusión.
