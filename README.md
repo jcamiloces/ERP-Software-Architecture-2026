@@ -125,7 +125,7 @@ Docs/
 ├── 01-definicion-proyecto/
 │   ├── Definicion_proyecto.md
 │   ├── Antecedentes.md
-│   ├── Alcances.md
+│   ├── Alcance.md
 │   └── Tecnologias.md
 │
 ├── 02-requerimientos/
@@ -133,17 +133,46 @@ Docs/
 │   ├── Requerimientos_funcionales.md
 │   └── Requerimientos_no_funcionales.md
 │
-├── 03-arquitectura/
-│   └── Diagramas_UML.md
+├── 03-sprint0-planning/
+│   ├── 01-product-backlog.md
+│   ├── 02-definition-of-done.md
+│   ├── 03-sprint-backlog.md
+│   ├── 04-estimacion-planning-poker.md
+│   ├── 05-plan-pruebas.md
+│   ├── 06-responsabilidades-equipo.md
+│   ├── 07-cronograma-sprint.md
+│   ├── 08-documentacion-jira.md
+│   ├── 09-diagramas-uml.md
+│   ├── 10-arbol-descomposicion-funcional.md
+│   └── README.md
 │
-└── 04-agil/
-    ├── Product_Backlog.md
-    ├── Definition_of_Done.md
-    ├── Sprint_Backlog.md
-    ├── Sprint1_Ejecucion.md
-    ├── Plan_de_Pruebas.md
-    ├── Responsabilidades_Cronograma.md
-    └── Documentacion_Jira.md
+├── 04-Agil/
+│   └── Sprint1_Ejecucion.md
+│
+├── Informes/
+│   ├── Guia 1 erp.pdf
+│   └── Guia 2.pdf
+│
+└── images/
+    ├── diagrama-vista-logica.png
+    ├── diagrama-vista-fisica.png
+    ├── diagrama-vista-desarrollo.png
+    ├── arbol-general.png
+    ├── arbol-modulo1-inventario.png
+    ├── arbol-modulo2-costos-ventas.png
+    ├── arbol-modulo3-empleados.png
+    ├── arbol-modulo4-gastos.png
+    ├── arbol-modulo5-reportes.png
+    ├── backlog-completo-23-historias.png
+    ├── backlog-priorizado-jira.png
+    ├── matriz-valor-esfuerzo.png
+    ├── planning-poker-consenso-2-3.png
+    ├── planning-poker-consenso-5-3.png
+    ├── planning-poker-consenso-5.jpg
+    ├── sprint1-backlog-resumen.jpg
+    ├── us02-detalle-completo.png
+    ├── Requerimientos_funcionales.jpeg
+    └── Requerimientos_no_funcionales.jpeg
 ```
 
 A medida que el proyecto avance, se irá agregando documentación adicional según las actividades y requerimientos del laboratorio.
