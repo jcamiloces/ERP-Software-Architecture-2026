@@ -36,7 +36,8 @@ La documentación arquitectónica del proyecto (vista lógica, vista física, vi
 
 Del Product Backlog se seleccionaron ocho historias de usuario correspondientes a la base funcional del sistema, sumando 29 Story Points — alcance considerado adecuado para la capacidad del equipo durante las dos semanas del sprint.
 
-![Sprint 1 - Resumen del backlog en Jira](../images/sprint1-backlog-resumen.png)
+![Resumen del Sprint 1 en el backlog](../images/sprint1-backlog-resumen.jpg)
+
 
 | Historia | Descripción | Story Points |
 |---|---|---|
