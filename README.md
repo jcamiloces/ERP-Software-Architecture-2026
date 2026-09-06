@@ -152,6 +152,7 @@ Docs/
 ├── Informes/
 │   ├── Guia 1 erp.pdf
 │   └── Guia 2.pdf
+│   └── GUIA Sprint1
 │
 └── images/
     ├── diagrama-vista-logica.png
