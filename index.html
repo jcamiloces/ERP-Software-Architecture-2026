@@ -407,10 +407,27 @@
       <span class="aisle-section-num">03</span>
       <div>
         <h2>Arquitectura</h2>
-        <p>Modelo C4, diagramas UML y decisiones de arquitectura</p>
+        <p>Vistas del sistema: lógica, física y de desarrollo (MVC con Laravel)</p>
       </div>
     </div>
-    <div class="placeholder">Esta sección se actualizará con el Modelo C4, los diagramas UML y las decisiones de arquitectura a medida que avance el proyecto. <span class="stock soon">Próximamente</span></div>
+
+    <div class="shelf-block">
+      <h3>Vista lógica — diagrama de clases</h3>
+      <img src="images/vista_logica.png" alt="Vista Lógica - Diagrama de Clases" style="width:100%;border-radius:4px;border:1px solid var(--line);margin-bottom:0.8rem;">
+      <p>Clases del sistema y sus relaciones: <code>Product</code>, <code>Category</code>, <code>InventoryMovement</code>, <code>Purchase</code>/<code>PurchaseDetail</code>, <code>Sale</code>/<code>SaleDetail</code>, <code>User</code>/<code>Role</code>, <code>Employee</code>/<code>Payroll</code>/<code>Shift</code>, <code>Expense</code>/<code>ExpenseCategory</code> y <code>Report</code>.</p>
+    </div>
+
+    <div class="shelf-block">
+      <h3>Vista física — diagrama de despliegue</h3>
+      <img src="images/vista_fisica.png" alt="Vista Física - Diagrama de Despliegue" style="width:100%;border-radius:4px;border:1px solid var(--line);margin-bottom:0.8rem;">
+      <p>Nodos de despliegue: navegadores web/móvil como clientes, repositorio de código en GitHub, servidor web/aplicación (Apache/Nginx + PHP-FPM con Laravel) y servidor de base de datos MySQL.</p>
+    </div>
+
+    <div class="shelf-block">
+      <h3>Vista de desarrollo — diagrama de componentes (MVC)</h3>
+      <img src="images/vista_desarrollo.png" alt="Vista de Desarrollo - Diagrama de Componentes" style="width:100%;border-radius:4px;border:1px solid var(--line);margin-bottom:0.8rem;">
+      <p>Componentes organizados por módulo (Inventario, Costos y Ventas, Empleados, Gastos, Reportes) y el módulo transversal de Seguridad/Núcleo (autenticación, roles y permisos).</p>
+    </div>
   </section>
 
   <!-- ============ PASILLO 04 — ÁGIL ============ -->
@@ -419,10 +436,52 @@
       <span class="aisle-section-num">04</span>
       <div>
         <h2>Ágil</h2>
-        <p>Product backlog e historias de usuario</p>
+        <p>Product backlog, Definition of Done y ejecución del Sprint 1</p>
       </div>
     </div>
-    <div class="placeholder">Esta sección incluirá el product backlog en Jira y las historias de usuario del proyecto. <span class="stock soon">Próximamente</span></div>
+
+    <div class="shelf-block">
+      <h3>Product Backlog</h3>
+      <p>23 historias de usuario derivadas de los requisitos funcionales (RF01–RF14), priorizadas con <strong>MoSCoW</strong> y la matriz <strong>Valor vs. Esfuerzo</strong>, identificando los "Quick Wins" a desarrollar primero.</p>
+      <p>Backlog completo documentado en <a href="https://erp-software-architecture-viveres-ylicores.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog" target="_blank" rel="noopener">Jira</a>.</p>
+    </div>
+
+    <div class="shelf-block">
+      <h3>Definition of Done</h3>
+      <p>Una historia se considera <em>Done</em> cuando: sigue el patrón MVC de Laravel, cumple mínimo 5 criterios de aceptación, pasa sus casos de prueba, no tiene errores bloqueantes, está integrada a <code>main</code> sin conflictos, fue revisada vía pull request, su documentación está actualizada y fue validada en ambiente de pruebas.</p>
+    </div>
+
+    <div class="shelf-block">
+      <h3>Sprint 1 — Sprint Backlog</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Historia</th><th>Descripción</th><th>Story Points</th></tr></thead>
+          <tbody>
+            <tr><td>US02</td><td>Registrar categorías de producto</td><td>2</td></tr>
+            <tr><td>US01</td><td>Registrar productos</td><td>3</td></tr>
+            <tr><td>US09</td><td>Definir precios de venta</td><td>3</td></tr>
+            <tr><td>US03</td><td>Registrar entradas de inventario</td><td>5</td></tr>
+            <tr><td>US04</td><td>Registrar salidas de inventario</td><td>5</td></tr>
+            <tr><td>US05</td><td>Consultar stock actual</td><td>3</td></tr>
+            <tr><td>US07</td><td>Registrar compras a proveedores</td><td>5</td></tr>
+            <tr><td>US16</td><td>Registrar gastos operativos</td><td>3</td></tr>
+            <tr><td colspan="2"><strong>Total</strong></td><td><strong>29</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Estimado mediante <strong>Planning Poker</strong> (secuencia de Fibonacci) por consenso del equipo.</p>
+    </div>
+
+    <div class="shelf-block">
+      <h3>Equipo y cronograma</h3>
+      <ul>
+        <li><strong>Técnico</strong> — Juan Camilo Céspedes Correal: arquitectura, backend Laravel, modelado MySQL.</li>
+        <li><strong>Comunicación</strong> — Juan Camilo Zabala Cerón: reuniones, documentación en Jira/Confluence.</li>
+        <li><strong>Calidad</strong> — David Felipe Moreno García: casos de prueba, revisión de pull requests.</li>
+        <li><strong>Apoyo técnico</strong> — Brayhan Alexander Suárez Merchán: frontend con Bootstrap, integración y despliegue.</li>
+      </ul>
+      <p>Sprint 1 ejecutado del 23 de agosto al 6 de septiembre de 2026, con seguimiento diario en el tablero de Jira.</p>
+    </div>
   </section>
 
   <!-- ============ PASILLO 05 — DOCUMENTACIÓN ============ -->

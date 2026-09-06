@@ -128,10 +128,22 @@ Docs/
 │   ├── Alcances.md
 │   └── Tecnologias.md
 │
-└── 02-requerimientos/
-    ├── Arbol_Funcional.md
-    ├── Requerimientos_funcionales.md
-    └── Requerimientos_no_funcionales.md
+├── 02-requerimientos/
+│   ├── Arbol_Funcional.md
+│   ├── Requerimientos_funcionales.md
+│   └── Requerimientos_no_funcionales.md
+│
+├── 03-arquitectura/
+│   └── Diagramas_UML.md
+│
+└── 04-agil/
+    ├── Product_Backlog.md
+    ├── Definition_of_Done.md
+    ├── Sprint_Backlog.md
+    ├── Sprint1_Ejecucion.md
+    ├── Plan_de_Pruebas.md
+    ├── Responsabilidades_Cronograma.md
+    └── Documentacion_Jira.md
 ```
 
 A medida que el proyecto avance, se irá agregando documentación adicional según las actividades y requerimientos del laboratorio.
@@ -156,6 +168,9 @@ La documentación actual incluye:
 - Descomposición funcional.
 - Requisitos funcionales.
 - Requisitos no funcionales.
+- Diagramas UML (vista lógica, física y de desarrollo).
+- Product Backlog y Definition of Done.
+- Ejecución del Sprint 1 (Sprint Backlog, estimación, plan de pruebas, responsabilidades y cronograma).
 
 ---
 
